@@ -5,7 +5,7 @@
 
 # demo-page
 
-introduction
+演示,克隆仓库 --> npm i --> npm start --> 查看效果
 
 ## master
 
