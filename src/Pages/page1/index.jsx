@@ -4,7 +4,7 @@ import { useRecoilState, useRecoilValue } from "recoil"
 import { countInitState, powerInitState } from "./state"
 
 const SyncRecoilAtom = () => {
-  // hooks用法:
+  // hooks用法: 只需要关注依赖项
   // const [count, setCount] = useRecoilState( atom或者selector )
   // const countPower = useRecoilValue( atom或者selector )
   // const setCount = useSetRecoilState( atom或者selector )
