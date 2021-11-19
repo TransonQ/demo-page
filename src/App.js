@@ -1,3 +1,7 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ */
 import React, { useCallback, useState } from "react"
 import { Card, Page, Tabs } from "@shopify/polaris"
 import SyncRecoilAtom from "./Pages/page1"
@@ -24,7 +28,7 @@ function App() {
   )
 
   return (
-    <Page>
+    <Page title='exam' divider>
       <Card>
         <Tabs tabs={tabs} selected={selected} onSelect={handleTabChange}>
           <Card.Section title={tabs[selected].content + "内容如下:"}>
