@@ -2,4 +2,6 @@
 
 master : 初始化
 
-recoil-in-shopify : recoil的基本用法, 框架同其他UI框架常识
+recoil-in-shopify : recoil 的基本用法, 框架同其他 UI 框架常识
+
+react-i18next-demo : react 国家化使用
