@@ -1,7 +1,4 @@
-/*
- * @Descripttion: 
- * @version: 
- */
+
 import React, { useCallback, useState } from "react"
 import { Card, Page, Tabs } from "@shopify/polaris"
 import SyncRecoilAtom from "./Pages/page1"
@@ -10,7 +7,7 @@ import AsyncData2 from "./Pages/page3"
 
 function App() {
   // tabsContents顺序 === pages顺序
-  let tabContents = ["同步示例", "异步一", "异步二"]
+  let tabContents = ["时间选择器"]
   let pages = [<SyncRecoilAtom />, <AsyncData1 />, <AsyncData2 />]
 
   const tabs = tabContents.map(tab => {
@@ -28,7 +25,7 @@ function App() {
   )
 
   return (
-    <Page title='exam' divider>
+    <Page title='exam' divider narrowWidth>
       <Card>
         <Tabs tabs={tabs} selected={selected} onSelect={handleTabChange}>
           <Card.Section title={tabs[selected].content + "内容如下:"}>
