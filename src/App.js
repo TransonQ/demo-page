@@ -25,7 +25,7 @@ function App() {
   )
 
   return (
-    <Page title='exam' divider narrowWidth>
+    <Page title='example' divider narrowWidth>
       <Card>
         <Tabs tabs={tabs} selected={selected} onSelect={handleTabChange}>
           <Card.Section title={tabs[selected].content + "内容如下:"}>
